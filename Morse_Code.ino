@@ -40,216 +40,141 @@ void traco(){
   
 
 void morse(char x){
-
-  if (x == 'a'){
-
-
-  ponto();
-  traco();
-    
-  }
-
-  if (x == 'b'){
-
-  traco();
-  ponto();
-  ponto();
-  ponto();
-   
-  }
-  
-  if (x == 'c'){
-
-  traco();
-  ponto();
-  traco();
-  ponto();
-   
-  }
-
-
-
-   if (x == 'd'){
-
-  traco();
-  ponto();
-  ponto();
-     
-  }
-  
-  if (x == 'e'){
-
-  ponto();
-     
-  }
-
-  if (x == 'f'){
-
-  ponto();
-  ponto();
-  traco();
-  ponto();
-     
-  }
-
-  if (x == 'g'){
-
-  traco();
-  traco();
-  ponto();
-     
-  }
-
-  if (x == 'h'){
-
-    ponto();
-    ponto();
-    ponto();
-    ponto();
-    
-  }
-
-  if (x == 'i'){
-
-    ponto();
-    ponto();
-    
-  }
-
-  if (x == 'j'){
-
-    ponto();
-    traco();
-    traco();
-    traco();
-    
-  }
-
-  if (x == 'k'){
-
-    traco();
-    ponto();
-    traco();
-    
-  }
-
-  if (x == 'l'){
-
-    ponto();
-    traco();
-    ponto();
-    ponto();
-    
-  }
-
-  if (x == 'm'){
-
-    traco();
-    traco();
-    
-  }
-
-  if (x == 'n'){
-
-    traco();
-    ponto();
-    
-  }
-
-  if (x == 'o'){
-    
-  traco();
-  traco();
-  traco();
-    
-  }
-
-  if (x == 'p'){
-
-    ponto();
-    traco();
-    traco();
-    ponto();
-  }
-
-  if (x == 'q'){
-
-    traco();
-    traco();
-    ponto();
-    traco();
-     
-  }
-
-  if (x == 'r'){
-
-    ponto();
-    traco();
-    ponto();
-    
-  }
-  
-  if (x == 's'){
-    
-  ponto();
-  ponto();
-  ponto();
-    
-  }
-
-  if (x == 't'){
-
-    traco();
-  }
-
-  if (x == 'u'){
-
-    ponto();
-    ponto();
-    traco();
-    
-  }
-
-  if (x == 'v'){
-
-    ponto();
-    ponto();
-    ponto();
-    traco();
-    
-  }
-
-  if (x == 'w'){
-
-    ponto();
-    traco();
-    traco();
-  }
-
-  if (x == 'x'){
-
-    traco();
-    ponto();
-    ponto();
-    traco();
-    
-  }
-
-  if (x == 'y'){
-
-     traco();
-     ponto();
-     traco();
-     traco();
-  }
-
-  if (x == 'z'){
-
-    traco();
-    traco();
-    ponto();
-    ponto();
-   
+  switch(x){
+    case 'a':
+      ponto();
+      traco();
+      break;
+    case 'b':
+      traco();
+      ponto();
+      ponto();
+      ponto();
+      break;
+    case 'c':
+      traco();
+      ponto();
+      traco();
+      ponto();
+      break;
+    case 'd':
+      traco();
+      ponto();
+      ponto();
+      break;
+    case 'e':
+      ponto();
+      break;
+    case 'f':
+      ponto();
+      ponto();
+      traco();
+      ponto();
+      break;
+    case 'g':
+      traco();
+      traco();
+      ponto();
+      break;
+    case 'h':
+      ponto()
+      ponto()
+      ponto()
+      ponto()
+      break;
+    case 'i':
+      ponto()
+      ponto()
+      break;
+    case 'j':
+      ponto();
+      traco();
+      traco();
+      traco();
+      break;
+    case 'k':
+      traco();
+      ponto();
+      traco();
+      break;
+    case 'l':
+      ponto();
+      traco();
+      ponto();
+      ponto();
+      break;
+    case 'm':
+      traco();
+      traco();
+      break;
+    case 'n':
+      traco();
+      ponto();
+      break;
+    case 'o':
+      traco();
+      traco();
+      traco();
+      break;
+    case 'p':
+      ponto();
+      traco();
+      traco();
+      ponto();
+      break;
+    case 'q':
+      traco();
+      traco();
+      ponto();
+      traco();
+      break;
+    case 'r':
+      ponto();
+      traco();
+      ponto();
+      break;
+    case 's':
+      ponto();
+      ponto();
+      ponto();
+      break;
+    case 't':
+      traco();
+      break;
+    case 'u':
+      ponto();
+      ponto();
+      traco();
+      break;
+    case 'v':
+      ponto();
+      ponto();
+      ponto();
+      traco();
+      break;
+    case 'w':
+      ponto();
+      traco();
+      traco();
+      break;
+    case 'x':
+      traco();
+      ponto();
+      ponto();
+      traco();
+      break;
+    case 'y':
+      traco();
+      ponto();
+      traco();
+      traco();
+      break;
+    case 'z':
+      traco();
+      traco();
+      ponto();
+      ponto();
+      break;
   }
 }
 
